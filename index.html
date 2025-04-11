@@ -7,16 +7,36 @@
     
     <!-- Firebase SDK -->
     <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-app-compat.js"></script>
-<script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-database-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.1/firebase-database-compat.js"></script>
 
-
-    
     <link rel="stylesheet" href="styles.css">
+
+    <style>
+        .top-left-image {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            height: 60px; /* adjust as needed */
+        }
+
+        .top-right-image {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            height: 60px; /* same height as logo */
+        }
+
+        h1 {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <h1>iNTELLIGENT VEHICLE IDENTIFICATION SYSTEM</h1>
 
     <img src="logo.svg.png" alt="Logo" class="top-left-image">
+    <img src="IVIS.png" alt="IVIS" class="top-right-image">
+
     <!-- Faculty Vehicles Section -->
     <h2 id="facultyTitle">Faculty Vehicles</h2>
     <table id="facultyTable">
